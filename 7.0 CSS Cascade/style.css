@@ -1,0 +1,38 @@
+/* Don't change the existing CSS. */
+
+.box {
+  background-color: blue;
+  padding: 10px;
+}
+
+p {
+  color: yellow;
+  margin: 0;
+  padding: 0;
+}
+
+
+#outer-box{
+  border: 15px;border-style: solid;border-color: rgb(248, 248, 6);margin-top: 20px;
+  .box{
+    p{
+      color: gold;
+    }
+    
+    
+  }
+  
+
+
+}
+
+
+.inner-box{
+  background-color: red;
+  p{
+    color: white;
+  }
+}
+.white-text{
+  color: white;
+}
