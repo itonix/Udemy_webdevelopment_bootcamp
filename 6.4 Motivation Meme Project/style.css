@@ -1,0 +1,19 @@
+html{
+    background-color:rgb(8, 8, 8);
+}
+#dranerys{
+    height: 381px;width: 700px;border: 3px;border-style: solid;border-color: beige;padding-bottom: 0%;margin-left: 600px;margin-top: 70px;
+}
+#special{
+    background-color: aliceblue;
+    margin-left: 700px;
+    width: 510px; height: auto;
+    h1{color: hsl(0, 0%, 0%);font-family: 'Libre Baskerville', serif;text-align: center;}
+        
+    
+}
+#avacodo{background-color: aliceblue;
+    margin-left: 700px;    width: 600px; height: auto;
+    h3{color: hsl(0, 100%, 100%);font-family: 'Libre Baskerville', serif;text-align: center;}
+
+}
