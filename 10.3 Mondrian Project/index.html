@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mondrian Project</title>
+  <style>
+    /* 
+    Write your CSS here 
+    Gap Colour: #000
+    White: #F0F1EC
+    Red: #E72F24
+    Black: #232629
+    Blue: #004592
+    Yellow: #F9D01E
+
+    For dimensions, see dimensions.png image.
+    HINT: Remember you can't change the properties of grid lines.
+    But grid lines are transparent!
+
+    */
+  .container{
+    display: grid;
+    width: 748px;
+    height: 748px;
+    grid-template-columns: 320px 198px 153px 50px;
+    grid-template-rows: 414px 130px 155px 20px;
+    gap: 9px;
+    background-color: black;
+
+  }
+  .redbox{
+   grid-column-start: 1;
+   grid-column-end: 2;
+   grid-row-start: 1;
+   grid-row-end: 2;
+   background-color: brown
+  }
+  .bigwhite{
+   grid-column-start:2 ;
+   grid-column-end: 5;
+   grid-row-start: 1;
+   grid-row-end: 2;
+   background-color: hsl(0, 2%, 92%);
+  }
+  .secondwhite{
+    grid-column-start:1 ;
+   grid-column-end: 2;
+   grid-row-start: 2;
+   grid-row-end: 4;
+   background-color: hsl(0, 2%, 92%);
+  }
+  .thirdwhite{
+    grid-column-start:2 ;
+   grid-column-end: 4;
+   grid-row-start: 2;
+   grid-row-end: 4;
+   background-color: hsl(0, 2%, 92%);
+  }
+  .bluebox{
+    grid-column-start:4 ;
+   grid-column-end: 5;
+   grid-row-start: 2;
+   grid-row-end: 3;
+   background-color: rgb(112, 3, 255);
+   border-bottom: 10px solid #000;
+   
+
+  }
+  .yellowbox{
+    grid-column-start:2 ;
+   grid-column-end: 3;
+   grid-row-start: 4;
+   grid-row-end: 5;
+   background-color: hsl(59, 100%, 50%);
+  }
+  .blackbox{
+    grid-column-start:3 ;
+   grid-column-end: 4;
+   grid-row-start: 4;
+   grid-row-end: 5;
+   background-color: hsl(0, 0%, 0%);
+  }
+ .smallwhite{
+  grid-column-start:1 ;
+   grid-column-end: 2;
+   grid-row-start: 4;
+   grid-row-end: 5;
+   background-color: hsl(0, 2%, 92%);
+ }
+ .wbox{
+  grid-column-start:4;
+   grid-column-end: 5;
+   grid-row-start: 3;
+   grid-row-end: 5;
+   background-color: hsl(0, 2%, 92%);
+ }
+ 
+  </style>
+</head>
+
+<body>
+  <!-- Write your HTML here -->
+  <div class="container">
+    <div class="item redbox"></div>
+    <div class="item bigwhite"></div>
+    <div class="item secondwhite"></div>
+    <div class="item thirdwhite"></div>
+    <div class="item bluebox"></div>
+    <div class="item yellowbox"></div>
+    <div class="item blackbox"></div>
+    <div class="item smallwhite"></div>
+    <div class="item wbox"></div>
+
+  </div>
+</body>
+
+</html>
